@@ -1,0 +1,1901 @@
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/open-sans-v34-latin-regular.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/open-sans-v34-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.woff") format("woff"), /* Pretty Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("../fonts/open-sans-v34-latin-regular.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-ExtraBold.eot");
+    src: url("../fonts/OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold.ttf") format("truetype"),
+        url("../fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold") format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-Bold.eot");
+    src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+        url("../fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+html *,
+body * {
+    font-family: "opensans", sans-serif;
+}
+header {
+    background: url("../assets/Pattern.png") no-repeat center/cover;
+}
+.winners {
+    background: url("../assets/winner-bg.png");
+    padding: 100px 0 100px 0;
+}
+.bg-maroon {
+    /*background-color: #AA0064;*/
+    color: #fff !important;
+}
+.bg-maroon * {
+    color: #fff !important;
+}
+.nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.nav-item.active .nav-link {
+    color: #ffb400 !important;
+}
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+.btn-outline-white,
+.btn-outline-white {
+    border: 1px solid #c8c8c8;
+}
+.btn-outline-filled,
+.btn-outline-filled:hover,
+.btn-outline-filled:focus {
+    background: #ffb400;
+    border: 1px solid #fff;
+    color: #000 !important;
+}
+.earn-point {
+    padding-top: 300px;
+}
+.earn-point .card-white {
+    background-color: #fff;
+    border-radius: 12px;
+}
+.earn-point .card-green {
+    background: #e6f4f4;
+    border-radius: 12px;
+}
+.earn-point .card-blue {
+    background: #f3f2ff;
+    border-radius: 12px;
+}
+.earn-point .card-pink {
+    background: #ffeaf6;
+    border-radius: 12px;
+}
+.card {
+    padding: 24px 24px;
+    border-color: transparent;
+    width: 100%;
+    height: 127px;
+}
+
+.card-white {
+    border: 1px solid #c8c8c8;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.12);
+}
+.earn-point .points {
+    margin-bottom: 100px;
+}
+.card-point {
+    font-weight: 800;
+    font-size: 32px;
+    /*line-height: 40px;*/
+    color: #000;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.mb-120 {
+    margin-bottom: 120px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.ml-100 {
+    margin-left: 70px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+/* .card-title, .earn-card-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.c-green {
+    color: #36c4bd;
+}
+.c-blue {
+    color: #5a2dbc;
+}
+.c-pink {
+    color: #aa0064;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 18px;
+    /*line-height: 24px;*/
+    color: #000;
+    margin-bottom: 0;
+}
+.earn-card-detail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 8px;
+}
+/* tandc */
+.tandc {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+}
+.tandc .content {
+    padding-top: 4rem;
+}
+.tandc .content-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000;
+    padding-bottom: 1rem;
+}
+.tandc .content-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+/* tandc */
+
+/*features*/
+.features {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #000;
+    color: #fff;
+}
+.feature-main-card {
+    padding-left: 50px;
+    /*padding-right: 50px;*/
+}
+.feature-card .feature-img {
+    width: 100%;
+}
+.feature-card {
+    gap: 80px;
+}
+.feature-title {
+    font-weight: 800;
+    font-size: 32px;
+    /*line-height: 40px;*/
+    color: #fff;
+    padding-bottom: 16px;
+}
+.feature-content {
+    font-weight: 400;
+    font-size: 20px;
+    /*line-height: 24px;*/
+    color: #fff;
+}
+.feature-link,
+.feature-link:hover {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffb400;
+    padding-top: 40px;
+    text-decoration: none;
+}
+/*features*/
+
+/*footer*/
+footer {
+    background-color: #000;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+footer li {
+    list-style-type: none;
+    /*padding: 8px;*/
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 10px;
+}
+.content-text li {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.content-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.li-small li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.li-title {
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+ol {
+    list-style-position: inside;
+}
+ul {
+    list-style-position: initial;
+}
+table {
+    width: fit-content !important;
+}
+.live-quiz-table {
+    margin-left: 15px;
+}
+tbody tr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* color: #fff; */
+    /* background: #000; */
+}
+td {
+    padding: 16px 170px 16px 16px !important;
+}
+.subscribe-input {
+    width: 320px;
+}
+.subscribe-button {
+    border-radius: 12px !important;
+}
+.social-media {
+    gap: 24px;
+    margin-top: 24px;
+}
+.social-media img {
+    max-width: 32px;
+    max-height: 32px;
+}
+/*footer*/
+.play-sub-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 8px;
+}
+/* banner */
+.bmain-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #fff;
+}
+.bsub-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+.banner-logo {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+}
+.banner-phones {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -180px;
+}
+.banner-person {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /*max-width: 520px;*/
+    max-width: 390px;
+    z-index: 1;
+}
+.back-icon {
+    width: 68px;
+    height: 68px;
+}
+.sub-page-banner .bsub-title {
+    position: relative;
+    padding-left: 30px;
+}
+.sub-page-banner .bsub-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+    background-color: #ffb400;
+}
+/* banner */
+
+/* blog */
+.blog-cards {
+    gap: 24px;
+}
+.blog-card .blog-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.home-blog-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+.author-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+.author-designation {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+.blog-datetime {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+}
+.blog-datetime #circle {
+    width: 6px;
+    height: 6px;
+    background: #808080;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+.blog-read-all {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #aa0064;
+}
+
+/* blog */
+
+/* winner card */
+.winner-cards {
+    gap: 120px;
+}
+
+.winner-card-content {
+    width: 320px;
+    min-height: 190px;
+    background: #fff;
+    box-shadow: 0px 24px 40px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    margin-top: -80px;
+    z-index: 1;
+}
+.leaderboard .winner-card-content {
+    box-shadow: none;
+    border-radius: 12px;
+    border: 1px solid #c8c8c8;
+}
+.winner-img {
+    width: 152px;
+    height: 152px;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(245, 245, 245, 0.2);
+    border-radius: 80px;
+    padding: 15px;
+}
+/* .rank{
+    color: white;
+    font-weight: bold;
+    background-color: #AA0064;
+    border-radius: 50px;
+    padding: 9px 17px;
+    border: 1px solid white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    z-index: 99999!important;
+} */
+.winner-name {
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #ff74c6 0%, #aa0064 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.winner-city {
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+}
+.winner-prize {
+    background: #AA0064;
+    border-radius: 12px;
+    padding: 16px 19px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1;
+    color: #ffffff;
+    margin: auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lb-winner-prize{
+    background: linear-gradient(134.22deg, #EBFF07 0%, #FFAB07 104.11%);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 60px;
+    padding: 16px 14px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1;
+    color: #000000;
+    margin: auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.winners .winner-prize {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.16);
+}
+.winner-table .winner-number {
+    width: 48px;
+    height: 48px;
+    background: #f1ebff;
+    /* border: 1px solid #ffffff; */
+    color: #5a2dbc;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 6px 16px;
+    border-radius: 50%;
+}
+.winner-table .two-digit {
+    padding: 6px 9px 9px;
+}
+/* winner card */
+.highlighted-text-purple {
+    background-color: #5a2ebc;
+}
+.highlighted-text-maroon {
+    background-color: #aa0065;
+}
+.highlighted-text-yellow {
+    background-color: #ffd364;
+}
+.text-purple {
+    color: #5a2ebc;
+}
+.text-maroon {
+    color: #aa0065;
+}
+.text-yellow {
+    color: #ffb400;
+}
+/* winner card */
+
+/* How To Play */
+.how-to-play-game {
+    padding: 120px 0;
+}
+.game-steps {
+    gap: 32px;
+}
+.game-steps li {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.game-steps .step-one::before,
+.game-steps .step-two::before,
+.game-steps .step-three::before {
+    content: "";
+    position: absolute;
+    right: calc(100% + 5px);
+    top: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.game-steps .step-one::before,
+.game-steps .step-two::before {
+    background-image: url("../assets/single-step.svg");
+    width: 14px;
+    height: 90px;
+}
+.game-steps .step-three::before {
+    background-image: url("../assets/double-step.svg");
+    width: 34px;
+    height: 175px;
+}
+.game-steps li p {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+    color: #000;
+}
+.game-steps li .game-step-count {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    min-height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #5a2dbc;
+    border-radius: 24px;
+    margin-right: 8px;
+}
+.game-steps li .upcoming-feature {
+    position: absolute;
+    top: 100%;
+}
+.game-steps .step-img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 24px;
+}
+.youtube-video{
+    width: 450px;
+    height: 400px;
+    border-radius: 12px;
+}
+.upcoming-feature {
+    background: #aa0064;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 4px 8px;
+}
+.game-step-card .video-play-icon,
+.media-release .video-play-icon,
+.media-release-thumbnail .video-play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.step-card-thumbnail {
+    display: block;
+    margin-bottom: 24px;
+}
+.game-step-card-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+.game-step-play-video {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.game-step-play-video:hover {
+    color: #000;
+}
+.game-step-play-video img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+/* How To Play */
+
+/*download*/
+.download {
+    background-color: #ffb400;
+}
+.download .title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #aa0064;
+    padding-bottom: 8px;
+}
+.download .sub-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+.getlink-button {
+    background-color: #5a2dbc;
+    color: #fff;
+    white-space: nowrap;
+    min-width: 120px;
+}
+/*download*/
+
+/* testimonial */
+.testimonial-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffb400;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.testimonial-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 16px;
+}
+.testimonial-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    font-style: italic;
+}
+.testimonial-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    padding-top: 35px;
+}
+.testimonial-name img {
+    width: auto !important;
+    height: auto !important;
+}
+.testimonial-item {
+    background: #fff;
+    border-radius: 12px;
+}
+.owl-item {
+    width: 420px !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none !important;
+}
+.owl-stage {
+    overflow-y: hidden !important;
+}
+.owl-nav {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 24px;
+}
+.owl-theme .owl-next {
+    /*float: right;*/
+    margin-left: 70% !important;
+}
+.testimonial-container {
+    margin-left: 7%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.nav-btn {
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.t-icon {
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
+/* mobile */
+
+/* FAQ */
+.faq {
+    background-color: #ececec;
+}
+.accordion-single {
+    border-bottom: 1px solid #c8c8c8;
+    margin-top: 10px;
+}
+.accordion-single-title {
+    border-top: 1px solid #c8c8c8;
+    padding: 20px 0;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.accordion-single-title::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: solid 2px #1e1e1e;
+    border-right: solid 2px #1e1e1e;
+    transform: translateY(-50%) rotate(135deg);
+}
+.accordion-single-content {
+    display: none;
+    transition: display 0.3s ease-in-out;
+}
+.accordion-single-content p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.accordion-single-item.is-open .accordion-single-content {
+    display: block;
+}
+.accordion-single-item.is-open .accordion-single-title::after {
+    transform: translateY(-50%) rotate(315deg);
+}
+/* FAQ End */
+
+/* Scroll function element */
+.scroll {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    transition: all 150ms ease;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+}
+/* End scroll function element */
+
+/* About Us Styles */
+.about-app {
+    padding: 68px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+.about-app h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #000000;
+}
+.about-app p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.brand-vision,
+.media-release {
+    padding: 80px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 60px;
+}
+.vision-img {
+    margin-bottom: 18px;
+}
+.vision-title {
+    font-weight: 800;
+    font-size: 20px;
+    color: #000000;
+}
+.vision-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+/* About Us Styles */
+
+/* Contact Us Styles */
+.contact-details h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    margin-bottom: 8px;
+}
+.contact-details address,
+.contact-details p,
+.contact-details a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+}
+/* Contact Us Styles */
+
+/* game rule */
+.game-rule-title {
+    font-weight: 800;
+    font-size: 32px;
+    color: #5a2dbc;
+    margin-bottom: 38px;
+}
+.game-rule-list li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+    min-height: 32px;
+    /* display: flex; */
+    align-items: center;
+}
+.game-rule-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.game-rule-list li img {
+    width: 32px;
+    margin-right: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.game-rule-img {
+    width: 100%;
+    max-width: 630px;
+}
+.different-text {
+    color: #36c4bd;
+}
+.yellow-card {
+    background-color: #fff2df;
+}
+.game-rule-content {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.game-rule-card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.game-rule-content .btn {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 20px 32px;
+    color: white;
+}
+.game-time {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.game-rule-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+.winner-price-table {
+    background-color: #fff;
+    /* border-radius: 12px; */
+    overflow: hidden;
+    margin-top: 20px;
+    /* border: 1px solid #c8c8c8; */
+}
+.winner-price-table table {
+    margin: -1px;
+}
+.winner-price-table td{
+    padding: 16px 24px !important;
+}
+.winner-price-table th {
+    padding: 16px 16px !important;
+    border: none;
+    font-size: 12px;
+}
+.winner-price-table tr td:not(:last-child),
+.winner-price-table tr th:not(:last-child){
+    background: url(../assets/border-right.svg) center right no-repeat;
+    /* border-right: 1px solid #c8c8c8; */
+}
+.winner-price-table tr:not(:last-child) td,
+.winner-price-table tr:not(:last-child) th {
+    border-bottom: 1px solid #c8c8c8;
+}
+.transparent-tamper-proof {
+    padding: 100px 0;
+    background-color: #5a2dbc;
+}
+.important-tip {
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.important-tip h5 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+}
+.transparent-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #ffffff;
+}
+.transparent-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.game-purple,
+.game-purple:hover {
+    background-color: #5a2dbc;
+}
+
+.game-maroon,
+.game-maroon:hover {
+    background-color: #aa0065;
+}
+
+.game-yellow,
+.game-yellow:hover {
+    background-color: #ffb400;
+}
+
+.bg-gray {
+    background-color: #f4f4f4;
+}
+/* game rule */
+
+/*leaderboard*/
+.btn-quiz-type {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    padding: 13px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: white;
+}
+.leaderboard-rank-number {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+}
+.active-quiz {
+    background: #5a2dbc;
+    color: white;
+}
+.leaderboard select {
+    background: #ffffff;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 8px;
+}
+button.btn.btn-quiz-type {
+    border-radius: 0;
+}
+button.btn.btn-quiz-type.left {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+button.btn.btn-quiz-type.right {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+/*leaderboard*/
+
+/*media*/
+.media-thumbnail {
+    border-radius: 12px;
+}
+.media-datetime {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #808080;
+}
+.media-section-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 40px;
+}
+.media-release-text .sub-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.media-release-text {
+    padding-right: 205px;
+}
+.media-release-text .datetime {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 40px;
+    color: #808080;
+}
+.media-release-text .heading {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+/*media*/
+
+/*social cause*/
+.cause-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+.cause-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.cause-text-title{
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 24px;
+}
+.cause-img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/*social cause*/
+
+/*leaderboard*/
+.leaderboard .winner-table {
+    border: 1px solid #c8c8c8;
+    border-radius: 12px;
+}
+.leaderboard table {
+    vertical-align: middle;
+}
+.winner-table {
+    line-height: 4;
+}
+.winner-table .table-row {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.blue-note {
+    padding: 32px 40px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #5a2dbc;
+    border-radius: 12px;
+}
+.pic-courtesy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.download-media-kit {
+    padding: 20px 32px;
+    background-color: #fff2df;
+    border-radius: 12px;
+}
+.about-app .download-media-kit-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5a2dbc;
+}
+.about-app .download-media-kit p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.about-app .download-media-kit p a {
+    color: #aa0064;
+}
+.download-media-kit-btn {
+    display: block;
+    padding: 12px 16px;
+    background-color: #ffb400;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.download-media-kit-btn:hover {
+    color: inherit;
+}
+.money-quizzing-text {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000;
+}
+@media only screen and (max-width: 1024px) {
+    .earn-point .points {
+        margin-bottom: 0;
+    }
+    .feature-card {
+        gap: 24px;
+    }
+    .features,
+    .winnersm,
+    .transparent-tamper-proof {
+        padding: 80px 0;
+    }
+    .game-rule-card {
+        padding: 45px 0;
+    }
+    .winner-cards {
+        gap: 40px;
+    }
+    .winner-card-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .earn-point {
+        padding-top: 220px;
+    }
+    .about-app .download-media-kit p {
+        margin-bottom: 24px !important;
+    }
+}
+@media screen and (min-width: 1380px) and (max-width: 2180px){
+    .progress-container ul li:nth-child(2) {
+        margin-left: 200px!important;
+        background: #5A2DBC;
+        border: 4px solid #FFFFFF;
+        box-shadow: 0px 0px 0px 4px #5A2DBC;
+    }
+    .progress-container ul li:nth-child(3) {
+        margin-left:640px!important;
+    }
+    .progress-container ul li:last-child {
+        margin-left:1080px!important;
+    }
+}
+
+/* @media only screen and (min-width: 1880px) {
+    
+} */
+@media only screen and (max-width: 940px) {
+        /* ********** */
+        .progress-container{
+            display: none!important;
+        }
+        .down-arrow{
+            display:none!important;
+        }
+        .daily-quiz-img{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .daily-quiz-card{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .card-box{
+            display: flex;
+            justify-content: center;
+        }
+        .youtube-video-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* ********** */
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* ********** */
+    .progress-container{
+        display: none;
+    }
+    .down-arrow{
+        display:none!important;
+    }
+    .daily-quiz-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .daily-quiz-level-blue{
+        margin: 0 0 15px 15px;
+            font-weight: 700;
+            font-size: 20px!important;
+            line-height: 26px!important;
+            color: #5A2DBC;
+        }
+        .daily-quiz-level-pink{
+            margin: 0 0 15px 15px;
+            font-weight: 700;
+            font-size: 20px!important;
+            line-height: 26px!important;
+        }
+        .card-box{
+            display: flex;
+            justify-content: center;
+        }
+        .youtube-video-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .youtube-video{
+            width: 100%;
+            height: 250px;
+        }
+
+    /* ********** */
+    td {
+        padding: 16px 16px 16px 16px !important;
+    }
+    .live-quiz-table {
+        margin-left: 50px;
+    }
+    .tandc .content {
+        padding-top: 1rem;
+    }
+    .tandc {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .main-title {
+        font-size: 35px;
+    }
+
+    /* banner */
+    .back-icon {
+        width: 48px;
+        height: 48px;
+    }
+    .bmain-title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .bsub-title {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #fff;
+    }
+    .feature-card {
+        gap: 30px;
+    }
+    .feature-card.mb-120 {
+        margin-bottom: 60px;
+    }
+    .features {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .feature-main-card {
+        padding-left: 15px;
+        /* padding-right: 50px; */
+    }
+    .winners {
+        padding: 60px 15px;
+    }
+    .winners .winner-cards {
+        gap: 60px;
+    }
+    /* banner */
+
+    /* about */
+    .about-app {
+        padding: 40px 0;
+    }
+    .about-app h2 {
+        font-size: 32px;
+        padding-bottom: 15px;
+        line-height: 44px;
+    }
+    .brand-vision,
+    .media-release {
+        padding: 60px 0;
+    }
+    .brand-vision .col-lg-3 {
+        text-align: center;
+    }
+    .how-to-play-game {
+        padding: 60px 0;
+    }
+    .game-steps .step-one::before,
+    .game-steps .step-two::before,
+    .game-steps .step-three::before {
+        display: none;
+    }
+    .game-step-card {
+        /* margin-top: 40px; */
+    }
+    .testimonial-title {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 20px;
+    }
+    .t-icon {
+        position: absolute;
+        top: 0;
+        width: 30%;
+        left: 2%;
+    }
+    .item.testimonial-item {
+        width: 80%;
+    }
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    .pt-100 {
+        padding-top: 60px;
+    }
+    .owl-theme .owl-next {
+        /* float: right; */
+        margin-left: 62% !important;
+    }
+    /* about */
+
+    /* game rule */
+    .game-rule-img img {
+        width: 100%;
+    }
+    .game-rule-content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .game-rule-content .ml-100 {
+        margin-left: 0px;
+    }
+    .game-rule-content .btn {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 32px;
+        padding: 20px 32px;
+        color: white;
+    }
+    .yellow-logo-quiz {
+        margin-top: 15px;
+    }
+    .game-time {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+
+    /* game rule */
+
+    /*leaderboard*/
+    .winner-card-content {
+        width: 100%;
+    }
+    .leaderboard-rank-number {
+        margin-bottom: 15px;
+    }
+    .m-sm-b-20 {
+        margin-bottom: 10px;
+    }
+    /*leaderboard*/
+    .media-release-text {
+        padding-right: 15px;
+    }
+    .cause-img {
+        width: 350px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .cause-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .social-cause .detail-card.pb-100 {
+        padding-bottom: 30px;
+    }
+
+    /*index*/
+    .mb-sm-25 {
+        margin-bottom: 25px;
+    }
+    .feature-img img {
+        width: 100%;
+    }
+    .earn-card {
+        /* padding-top: 20px;
+        padding-bottom: 35px; */
+    }
+    .earn-point .bmain-title.pt-100 {
+        padding-top: 0px;
+    }
+    .banner-person,
+    .banner-logo {
+        display: none;
+    }
+    /*index*/
+}
+/* mobile */
+
+/* 13 inch */
+@media (min-width: 1400px) {
+    /*.container{
+	    max-width: 1084px !important;
+	}*/
+    
+}
+/* 13 inch */
+
+@media (min-width: 1200px) {
+    /*.container{
+	    max-width: 1080px !important;
+	}*/
+}
+.privacy-li{
+    list-style: upper-latin;
+}
+.eligible-li{
+    list-style:decimal;
+}
+.game-rules-li {
+    list-style-image: url("../assets/bullet-point.svg");
+}
+.winner-tbody tr:nth-child(1){
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.winner-tbody tr:nth-child(2){
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.winner-tbody tr:nth-child(3){
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+.live-quiz{margin-left: 15px; color: #5A2DBC;}
+.ml-1{margin-left: 10px;}
+.ml-50{margin-left: 50px;}
+.mt-100{margin-top: 100px;}
+.bmain-text{font-size: 20px;font-weight: 400;}
+.strcit-18{width: 146px; max-height: 36px; margin-top: 15px;}
+.cost-daily{font-size: 16px;font-weight: 700;}
+.cost-daily-li{list-style: disc !important;padding-left: 0px !important;}
+.float-right{float: right;}
+.location-text{font-size: 14px;}
+.other-winner-name{font-size: 20px; font-weight: 800;}
+
+
+/* ****************************
+PROGRESS BAR SECTION START
+*************************** */
+.daily-quizes{
+    height: 100%;
+    padding: 20px 8px 60px 8px;
+    overflow: hidden;
+}
+
+.progress-container {
+    z-index: -99;
+    position: relative;
+    margin: 50px auto 50px;
+    padding: 4px 0 0;
+    width: 100%;
+    height: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: #444;
+    -moz-box-shadow: inset 0 0 2px #666;
+    -webkit-box-shadow: inset 0 0 2px #666;
+    box-shadow: inset 0 0 2px #666; */
+
+    /* width: 1298px;
+    height: 14px; */
+    background: linear-gradient(270deg, rgba(200, 200, 200, 0) 0%, #C8C8C8 12.5%, #C8C8C8 86.98%, rgba(200, 200, 200, 0) 100%);
+    border: 1px solid #FFFFFF;
+}
+.progress-container ul li {
+    position: absolute;
+    top: -2.5px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-table;
+    height: 20px;
+    width: 20px;
+    /* background: #14bfcc; */
+    border-radius: 50%;
+    
+    /* background: #36C4BD;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #36C4BD; */
+}
+.progress-list-item1{
+    background: #36C4BD!important;
+    border: 4px solid #FFFFFF!important;
+    box-shadow: 0px 0px 0px 4px #36C4BD!important;
+}
+.progress-list-item2{
+    background: #5A2DBC;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #5A2DBC;
+}
+.progress-list-item3{
+    background: #AA0064;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #AA0064;
+}
+.progress-container ul li:nth-child(2) {
+    margin-left: 170px;
+    background: #5A2DBC;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #5A2DBC;
+}
+.progress-container ul li:nth-child(3) {
+    margin-left: 550px;
+}
+.progress-container ul li:last-child {
+    margin-left: 930px;
+}
+.progress-container ul li:before {
+    z-index: -99;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    content: '';
+    height: 20px;
+    width: 20px;
+    /* background: red; */
+    border-radius: 50%;
+}
+.progress-container .progress-bar {
+    height: 2px;
+    width: 0%;
+    background: #09a6b2;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+.progress-container ul li{
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+
+
+.daily-quiz-card{
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 12px;
+
+    -webkit-box-shadow: 2px 18px 17px -2px rgba(194,194,194,1);
+    -moz-box-shadow: 2px 18px 17px -2px rgba(194,194,194,1);
+    box-shadow: 2px 18px 17px -2px rgba(194,194,194,1);
+}
+.daily-quiz-card-1{
+    position: absolute;
+    top: -440px;
+    left: 0;
+    /* width: 415px; */
+    margin: 0 80px 0 0;
+}
+.daily-quiz-card-2{
+    position: absolute;
+    top: -440px;
+    left: 33%;
+}
+.daily-quiz-card-3{
+    position: absolute;
+    top: -440px;
+    left: 66%;
+}
+.daily-quiz-heading{
+    margin: 15px 0 0 15px;
+
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+}
+.daily-quiz-img{
+
+}
+.daily-quiz-img img{
+    border-radius: 12px;
+    margin: 15px;
+    width: 92%;
+}
+.daily-quiz-content{
+    margin: 0 0 15px 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #36C4BD;
+}
+.daily-quiz-content2{
+    margin: 0 0 15px 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5A2DBC;
+}
+.daily-quiz-content3{
+    margin: 0 0 15px 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #AA0064;
+}
+.daily-quize-level-blue{
+    color:#5A2DBC;
+    float: right;
+    margin-right: 15px;
+}
+.daily-quize-level-pink{
+    color: #AA0064;
+    float: right;
+    margin-right: 15px;
+}
+
+/* ****************************
+PROGRESS BAR SECTION END
+*************************** */
+
+
+.faq-box{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 24px;
+    height: 190px;
+}
+.faq-que{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+.faq-ans{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* ******** New About section ********* */
+
+.about-info{
+    padding: 60px 0px;
+}
+.about-info h1{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+}
+.about-content{
+    margin: 0 20px;
+}
+
+.about-content-img img{
+    padding: 5px 0;
+}
+.about-content-written p{
+    padding: 0 0 6px 0;
+    margin: 0px!important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.about-content-written h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+/* .icon1-img img{
+    padding: 43px 0!important;
+} */
+
+.about-content-written p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+/* ******** New About section ********* */
+
+
+
+/* ************** NEW CHAMPION SECTION START ************** */
+.page-lead-rank{
+    padding: 60px 0;
+}
+.champ11{
+    /* padding-bottom: 10px; */
+}
+
+.page-champ-card{
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 12px;
+    padding:  30px 0;
+    margin: 0 15px;
+    z-index: -99!important;
+}
+.page-champ-card h4{
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    background: linear-gradient(135deg, #FF74C6 0%, #AA0064 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.page-champ-card h5{
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #AA0064;
+}
+.page-champ-card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.page-champ-img img{
+    /* background-color: rgb(245, 245, 245, 0.2); */
+    /* border-radius: 80px; */
+    /* padding: 15px; */
+    margin-bottom: -80px;
+    z-index: -1!important;
+
+    width: 50%;
+}
+.page-rank{
+    color: white;
+    font-weight: bold;
+    background-color: #AA0064;
+    border-radius: 50px;
+    padding: 9px 17px;
+    border: 1px solid white;
+    /* position: absolute;
+    top: 25%;
+    left: 32%; */
+    /* transform: translate(-50%, -50%); */
+    margin-left: 70px;
+    z-index: 999!important;
+}
+.page-prize {
+    width: 50%;
+    color: black;
+    /* box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.16); */
+    margin-top: -30px;
+
+    background: linear-gradient(134.22deg, #EBFF07 0%, #FFAB07 104.11%);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 60px;
+
+}
+.page-prize p{
+    margin-top: 8px;
+    padding: 6px 7px 0 7px;
+
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ************** NEW CHAMPION SECTION END ************** */

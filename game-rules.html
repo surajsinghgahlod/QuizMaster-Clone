@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>QUIZ MASTER | Our Story</title>
+        <link rel="icon" type="image/x-icon" href="assets/q-favicon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    </head>
+    <body>
+        <!-- header -->
+        <header class="position-relative">
+            <nav class="navbar navbar-expand-lg bg-maroon">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/Logo.svg" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Game Rules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="leaderboard.html">Leaderboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="social-cause.html">Social Cause</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="media.html">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">Our Story</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <!-- <button class="btn btn-outline-white" type="button">Register</button> -->
+                            <!-- <button class="btn btn-outline-filled ms-3" type="button">Download Game</button> -->
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="container banner bg-maroon sub-page-banner">
+                <div class="row align-items-end justify-content-between py-lg-5 mt-lg-5 py-md-6 mt-md-5 mt-3 pb-5">
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-2">
+                                <a href="index.html" class="back-btn d-flex align-items-center">
+                                    <img src="assets/back.png" class="back-icon" alt="Go to back" />
+                                </a>
+                            </div>
+                            <div class="col-10">
+                                <div class="bmain-title mb-3">Rules of the Game</div>
+                                <p class="bsub-title py-3 mb-0">Our quiz format is simple: Multiple-choice questions, 15 seconds to answer each, many big winners, and 1 mega winner!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex">
+                        <div class="p-lg-2 p-md-2 p-3">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.quizMasterWorld.quiz_master"><img src="assets/GooglePlay.svg" /></a>
+                        </div>
+                        <div class="p-lg-2 p-md-2 p-3">
+                            <a target="_blank" href="https://apps.apple.com/us/app/quiz-master-quiz-master/id6444122333"><img src="assets/AppStore.svg" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- main content of body -->
+        <div class="main-body">
+            <section class="game-detail">
+                <div class="game-rule-card">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6 order-lg-2">
+                                <img src="assets/free-practice-round.svg" class="game-rule-img mb-4 mb-lg-0" alt="Free Practise Round" />
+                            </div>
+                            <div class="col-lg-5">
+                                <h3 class="game-rule-title">Daily Practise Quiz</h3>
+                                <ul class="game-rule-list list-unstyled mb-0">
+                                    <li><img src="assets/time.svg" alt="Time" />07:30 PM | Daily (Mon - Sun)</li>
+                                    <li><img src="assets/question.svg" alt="Question" />8 questions, 15 seconds to answer each</li>
+                                    <li><img src="assets/mcq.svg" alt="MCQ" />Multiple-choice with 3 answer options</li>
+                                    <li><img src="assets/free-of-cost.svg" alt="Free Of Cost" /><strong class="different-text">Free</strong> to participate</li>
+                                    <li><img src="assets/trophy.svg" alt="Trophy" />Get 1 QuizMaster coin worth ₹2 for the fastest correct answer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-rule-card yellow-card">
+                    <div class="container">
+                        <div class="row gx-5 align-items-center justify-content-between mb-lg-5">
+                            <div class="col-lg-6">
+                                <img src="assets/warm-up-round.svg" class="game-rule-img mb-4 mb-lg-0" alt="Warm-up Round" />
+                            </div>
+                            <div class="col-lg-5">
+                                <h3 class="game-rule-title">Daily Evening Quiz <span style="font-weight: 600;">(Level 1 to 6)</span></h3>
+                                <ul class="game-rule-list list-unstyled mb-4 mb-lg-0">
+                                    <li><img src="assets/time.svg" alt="Time" />7:45 PM daily | Daily (Mon - Sun)</li>
+                                    <li><img src="assets/question.svg" alt="Question" />48 questions, 15 seconds to answer each</li>
+                                    <li><img src="assets/mcq.svg" alt="MCQ" />Multiple-choice with 3 answer options</li>
+                                    <!-- <li><img src="assets/free-of-cost.svg" alt="Free Of Cost" />Cost of purchasing questions: ₹180</li> -->
+                                    <li><img src="assets/trophy.svg" alt="Trophy" />Win exciting cash prizes.</li>
+                                </ul>
+                                <!-- <div class="row">
+                                    <div class="col-12">
+                                        <div class="winner-price-table">
+                                            <div class="table-responsive">
+                                                <table class="table mb-0 w-100">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>RANK</th>
+                                                            <th>PRIZE AMOUNT</th>
+                                                            <th>NO OF PRIZES</th>
+                                                            <th>TOTAL PRIZE</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="winner-tbody">
+                                                        
+                                                        <tr>
+                                                            <td>1st Prize</td>
+                                                            <td>₹ 1,00,000</td>
+                                                            <td>1</td>
+                                                            <td>₹ 1,00,000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2nd Prize</td>
+                                                            <td>₹ 5,000</td>
+                                                            <td>20</td>
+                                                            <td>₹ 1,00,000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3rd Prize</td>
+                                                            <td>₹ 12</td>
+                                                            <td>10,000</td>
+                                                            <td>₹ 1,20,000</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col-12">
+                                <div class="winner-price-table">
+                                    <div class="table-responsive">
+                                        <table class="table mb-0 w-100">
+                                            <tbody>
+                                                <tr>
+                                                    <td>RANK</td>
+                                                    <td>PRIZE AMOUNT</td>
+                                                    <td>NO OF PRIZES</td>
+                                                    <td>TOTAL PRIZE</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>1st Prize</th>
+                                                    <td>₹ 1,00,000</td>
+                                                    <td>1</td>
+                                                    <td>₹ 1,00,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>2nd Prize</th>
+                                                    <td>₹ 5,000</td>
+                                                    <td>20</td>
+                                                    <td>₹ 1,00,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>3rd Prize</th>
+                                                    <td>₹ 12</td>
+                                                    <td>10,000</td>
+                                                    <td>₹ 1,20,000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="game-rule-card">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6 order-lg-2">
+                                <img src="assets/daily-mega-quiz.svg" class="game-rule-img mb-4 mb-lg-0" alt="Daily Mega Quiz" />
+                            </div>
+                            <div class="col-lg-5">
+                                <h3 class="game-rule-title">Daily Night Quiz <span style="font-weight: 600;">(Level 1 to 6)</span></h3>
+                                <ul class="game-rule-list list-unstyled mb-4 mb-lg-0">
+                                    <li><img src="assets/time.svg" alt="Time" />9:30 PM daily | Daily (Mon - Sun)</li>
+                                    <li><img src="assets/question.svg" alt="Question" />48 questions, 15 secs per question</li>
+                                    <li><img src="assets/mcq.svg" alt="MCQ" />Multiple-choice with 3 answer options</li>
+                                    <!-- <li><img src="assets/free-of-cost.svg" alt="Free Of Cost" />Win exciting cash prizes.</li>
+                                    <ul class="ml-50">
+                                        <li class="cost-daily-li"><span class="cost-daily">₹144 </span>- Monday - Friday</li>
+                                        <li class="cost-daily-li"><span class="cost-daily">₹300 </span>- Saturday</li>
+                                        <li class="cost-daily-li"><span class="cost-daily">₹600 </span>- Sunday</li>
+                                    </ul> -->
+                                    
+                                    <li><img src="assets/trophy.svg" alt="Trophy" />Win exciting cash prizes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-rule-card yellow-card">
+                    <div class="container">
+                        <div class="row gx-5 align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <img src="assets/weekly-grand-quiz.svg" class="game-rule-img mb-4 mb-lg-0" alt="Weekly Grand Quiz" />
+                            </div>
+                            <div class="col-lg-5">
+                                <h3 class="game-rule-title">Sunday Grand Quiz</h3>
+                                <ul class="game-rule-list list-unstyled mb-4 mb-lg-0">
+                                    <li><img src="assets/time.svg" alt="Time" /><strong>Coming Soon</strong></li>
+                                    <li><img src="assets/question.svg" alt="Question" />15 questions, 10 seconds to answer each</li>
+                                    <li><img src="assets/mcq.svg" alt="MCQ" />Multiple-choice with 3 answer options</li>
+                                    <!-- <li><img src="assets/free-of-cost.svg" alt="Free Of Cost" />Cost of purchasing questions:</li>
+                                    <ul class="ml-50">
+                                        <li class="cost-daily-li">Question 1 - 5 is <span class="cost-daily">₹500</span></li>
+                                        <li class="cost-daily-li">Question 6 - 10 is <span class="cost-daily">₹1000</span></li>
+                                        <li class="cost-daily-li">Question 11 -15 is <span class="cost-daily">₹2500</span></li>
+                                    </ul> -->
+                                    <li><img src="assets/trophy.svg" alt="Trophy" />Win exciting cash prizes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="game-detail">
+                <div class="game-rule-card">
+                    <div class="d-flex justify-content-center blog-cards flex-column flex-lg-row">
+                        <div class="game-rule-content">
+                            <div>
+                                <div><button class="game-purple btn highlighted-text-purple">Practise Quiz</button></div>
+                                <div class="game-time d-flex blog-cards flex-column flex-lg-row text-purple">
+                                    <div class=""><img src="assets/watch-p.svg" />&nbsp; Everyday</div>
+                                    <div class="ml-100"><img src="assets/time-p.svg" />&nbsp; &nbsp;9:00 AM - 9:00 PM</div>
+                                </div>
+                                <div class="game-rule-text">
+                                    <li>Register with your mobile number and validate with an OTP.</li>
+                                    <li>Every quiz question has a three-choice answer.</li>
+                                    <li>
+                                        Every correct answer gets 1 free QM coin
+                                        <br />&nbsp;&nbsp;&nbsp;&nbsp;You can buy questions using those QM coins in the Daily Mega Quiz or the Sunday Grand Quiz.
+                                    </li>
+                                    <li>Players can also win QM points through confirmed referrals. Anyone that registers using a player's referral code will get a credit of 2 QM coins.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game-rule-img p-0">
+                            <img src="assets/game-1.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="game-rule-card bg-gray">
+                    <div class="d-flex justify-content-center blog-cards flex-column flex-lg-row">
+                        <div class="game-rule-img p-0">
+                            <img src="assets/game-2.svg" />
+                        </div>
+                        <div class="game-rule-content">
+                            <div>
+                                <div><button class="game-maroon btn highlighted-text-maroon">Daily Mega Quiz</button></div>
+                                <div class="game-time d-flex blog-cards flex-column flex-lg-row text-maroon">
+                                    <div class=""><img src="assets/watch-m.svg" />&nbsp; Everyday</div>
+                                    <div class="ml-100"><img src="assets/time-m.svg" />&nbsp; &nbsp;10:00 PM - 10:15 PM</div>
+                                </div>
+                                <div class="game-rule-text">
+                                    <li>Participant needs to purchase all <strong>12 questions</strong>.</li>
+                                    <li>The quiz will have a popular celebrity opening and closing every quiz game.</li>
+                                    <li>Minimum coins to buy <strong>12 questions</strong> is required to be added to your wallet for one round.</li>
+                                    <li>Based on the day of the week, each question will have to be purchased using QM coins.</li>
+                                    <li>Every question has 3 options, and the player will get 10 seconds to select an answer option.</li>
+                                    <li>The fastest answer within 10 seconds wins instantly, and the secure blockchain technology will automatically select the fastest finger first, down to nanoseconds.</li>
+                                    <li>All winnings are credited to the player's wallet instantly.</li>
+                                    <li>All other winners who did not provide the correct answer fast enough will receive consolation coins for each correct answer.</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-rule-card">
+                    <div class="d-flex justify-content-center blog-cards flex-column flex-lg-row">
+                        <div class="game-rule-content">
+                            <div>
+                                <div><button class="me-2 game-yellow btn">Sunday Grand Quiz</button><img class="yellow-logo-quiz" src="assets/game-rule-l.svg" /></div>
+                                <div class="game-time d-flex blog-cards flex-column flex-lg-row text-yellow">
+                                    <div class=""><img src="assets/watch-y.svg" />&nbsp; Sundays</div>
+                                    <div class="ml-100"><img src="assets/time-y.svg" />&nbsp; &nbsp;10:30 PM - 11:00 PM</div>
+                                </div>
+                                <div class="game-rule-text">
+                                    <li>The Sunday Grand Quiz will go live at 10.30 pm every Sunday.</li>
+                                    <li>This round will consist of 15 questions,</li>
+                                    <li>Every question has 3 options, and the player will get 10 seconds to select an answer option.</li>
+                                    <li>The fastest answer within 10 seconds wins instantly, and the secure blockchain technology will automatically select the fastest finger first, down to nanoseconds.</li>
+                                    <li>All winnings are credited to the player's wallet instantly.</li>
+                                    <li>All other winners who did not provide the correct answer fast enough will receive consolation coins for each correct answer.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game-rule-img p-0">
+                            <img src="assets/game-3.svg" />
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="transparent-tamper-proof">
+                <div class="container">
+                    <div class="important-tip d-flex mb-4 mb-lg-5">
+                        <div class="flex-shrink-0">
+                            <img class="mr-3" src="assets/important.svg" alt="Important Tip" />
+                        </div>
+                        <div class="flex-grow-1 ms-4">
+                            <h5 class="mt-0">Important Tip</h5>
+                            To win, you need to get questions right within 10 seconds. So make sure to log in 10 minutes before the quizzes go live and test your internet connection.
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-4">
+                            <h2 class="transparent-title mb-0">Transparent & Tamper proof</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="transparent-text mb-0">
+                                QuizMaster is built on a powerful blockchain architecture, which means no human tampering is possible! The quiz questions are securely stored on the cloud.
+                                <br />
+                                <br />
+                                They will be randomised by AI and never repeated. Every response recorded is tracked in nanoseconds and AI determines tiebreakers. So, focus on your gameplay — we’ll take care of everything else.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="download">
+                <div class="container">
+                    <div class="row align-items-center p-4">
+                        <div class="col-lg-7 mb-4 mb-lg-0">
+                            <div class="title">Download the QuizMaster app</div>
+                            <div class="sub-title">An entertaining real money quizzing app that provides big instant rewards!</div>
+                        </div>
+                        <div class="col-lg-5">
+                            <!-- <div class="d-flex justify-content-center">
+                                <input type="" name="" placeholder="Enter phone number" class="pt-2 pb-2 ps-4 subscribe-input" />
+                                <button class="btn getlink-button ms-4" type="button">Get Link</button>
+                            </div> -->
+                            <div class="d-flex justify-content-center">
+                                <div class="p-2">
+                                    <img src="assets/GooglePlay.svg" />
+                                </div>
+                                <div class="p-2">
+                                    <img src="assets/AppStore.svg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blogs">
+                <div class="container pt-100 mb-80">
+                    <div class="bmain-title text-center mb-5 text-dark">Some good <span class="highlighted-text-yellow">reads</span></div>
+                    <div class="d-flex flex-column flex-lg-row justify-content-center blog-cards">
+                        <div class="blog-card">
+                            <div>
+                                <img class="blog-img" src="assets/blog-1.png" />
+                            </div>
+                            <div class="home-blog-title mt-3 mb-3">Emergence of women in the world of gaming.</div>
+                            <div class="mb-3">
+                                <span><img src="assets/blog-profile-1.svg" class="me-2" /></span><span class="author-name me-1">Mohammed Ameen,</span><span class="author-designation">Digital Marketing Officer</span>
+                            </div>
+                            <div class="blog-datetime">
+                                <span class="me-2">October 8, 2022</span>
+                                <div id="circle"></div>
+                                <span class="ms-2"> 5 mins read</span>
+                            </div>
+                        </div>
+                        <div class="blog-card">
+                            <div>
+                                <img class="blog-img" src="assets/blog-2.png" />
+                            </div>
+                            <div class="home-blog-title mt-3 mb-3">Top Tricks that helps you Prepare for a grand quiz.</div>
+                            <div class="mb-3">
+                                <span><img src="assets/blog-profile-1.svg" class="me-2" /></span><span class="author-name me-1">Aruna S,</span><span class="author-designation">Associate . Digital Media</span>
+                            </div>
+                            <div class="blog-datetime">
+                                <span class="me-2">August 14, 2022</span>
+                                <div id="circle"></div>
+                                <span class="ms-2"> 4 mins read</span>
+                            </div>
+                        </div>
+                        <div class="blog-card">
+                            <div>
+                                <img class="blog-img" src="assets/blog-3.png" />
+                            </div>
+                            <div class="home-blog-title mt-3 mb-3">Enhancing the education sector with gamification techniques.</div>
+                            <div class="mb-3">
+                                <span><img src="assets/blog-profile-1.svg" class="me-2" /></span><span class="author-name me-1">Manikandan S,</span><span class="author-designation">Associate. Digital Media</span>
+                            </div>
+                            <div class="blog-datetime">
+                                <span class="me-2">July 4, 2022</span>
+                                <div id="circle"></div>
+                                <span class="ms-2"> 6 mins read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-60 blog-read-all">Read All Blogs <img class="ps-1" src="assets/arrow-purple.svg" /></div>
+                </div>
+            </section>
+
+            <section class="testimonial highlighted-text-maroon position-relative">
+                <img src="assets/t-icon.svg" class="t-icon" />
+                <div class="testimonial-container">
+                    <div class="row g-0">
+                        <div class="col-lg-3 testimonial-title mb-3 mb-lg-0 pt-3">
+                            We’re getting lots of love!
+                            <div class="testimonial-subtitle">Listen to the buzz in the quizzing world.</div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="owl-carousel owl-theme col-lg-12">
+                                <div class="item testimonial-item p-4 me-2">
+                                    <div class="testimonial-text">“Just downloaded the app yesterday. Great first play! I won back Rs.48 already. Woohoo 🎉”</div>
+                                    <div class="testimonial-name d-flex">
+                                        <span class="me-2"><img src="assets/testimonial-profile.svg" /></span>
+                                        <span>Khalid Mohammed (@kha_mo_shi)</span>
+                                    </div>
+                                </div>
+                                <div class="item testimonial-item p-4 me-2">
+                                    <div class="testimonial-text">“Excellent quiz with GK qns. Good fr young ppl and elders both. Best part is NO ADS. Looking fwd to winning.”</div>
+                                    <div class="testimonial-name d-flex">
+                                        <span class="me-2"><img src="assets/priya.png" /></span>
+                                        <span>Priya Sareen (@merida_piyu)</span>
+                                    </div>
+                                </div>
+                                <div class="item testimonial-item p-4 me-2">
+                                    <div class="testimonial-text">
+                                        “Fun & challenging quizzes. You learn something new everyday.”
+                                        <br /><br />
+                                    </div>
+                                    <div class="testimonial-name d-flex">
+                                        <span class="me-2"><img src="assets/akhil.png" /></span>
+                                        <span>Akhil Mathew (@kingaks95)</span>
+                                    </div>
+                                </div>
+                                <div class="item testimonial-item p-4 me-2">
+                                    <div class="testimonial-text">“Just downloaded the app yesterday. Great first play! I won back Rs.48 already. Woohoo 🎉”</div>
+                                    <div class="testimonial-name d-flex">
+                                        <span class="me-2"><img src="assets/testimonial-profile.svg" /></span>
+                                        <span>Khalid Mohammed (@kha_mo_shi)</span>
+                                    </div>
+                                </div>
+                                <!-- <div class="item testimonial-item p-4 me-2">
+									<div class="testimonial-text">
+										“I am planning to spend my winning amount in my abroad education. Thank you QuizMaster”
+									</div>
+									<div class="testimonial-name d-flex">
+										<span class="me-2"><img src="assets/testimonial-profile.svg"></span> <span>Jayant Kumar</span>
+									</div>
+								</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- main content of body -->
+
+        <!-- footer -->
+        <footer>
+            <section class="container footer">
+                <div class="d-flex justify-content-between flex-column flex-lg-row">
+                    <div>
+                        <div class="pt-2 pb-2">
+                            <img src="assets/Logo-footer.svg" />
+                        </div>
+                        <div class="pt-2 pb-2">&copy; QuizMaster. All Rights Reserved</div>
+                        <ul class="social-media d-flex list-unstyled">
+                            <li>
+                                <a href="https://twitter.com/QuizMasterQM" class="d-flex"><img src="assets/twitter.png" alt="Twitter" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/people/The-Quiz-Master_India/100087130988054/" class="d-flex"><img src="assets/facebook.png" alt="Facebook" /></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/quizmaster.world?igshid=Yzg5MTU1MDY=" class="d-flex"><img src="assets/instagram.png" alt="Instagram" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@quizmaster2022" class="d-flex pt-1"><img src="assets/youtube.png" alt="Instagram" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="pt-2 pb-2">Quick Links</div>
+                        <li class="pt-2 pb-2">
+                            <a href="game-rules.html">Game Rules</a>
+                        </li>
+                        <li class="pt-2 pb-2">
+                            <a href="leaderboard.html">Leaderboard</a>
+                        </li>
+                        <li class="pt-2 pb-2">
+                            <a href="privacy-policy.html">Privacy Policies</a>
+                        </li>
+                        <!-- <li class="pt-2 pb-2">
+                            <a href="terms-and-conditions.html">Terms & Conditions</a>
+                        </li> -->
+                        
+                    </div>
+                    <div>
+                        <div class="pt-2 pb-2 invisible">Quick Links</div>
+                        <!-- <li class="pt-2 pb-2">
+                            <a href="about-us.html">Our Story</a>
+                        </li> -->
+                        <li class="pt-2 pb-2">
+                            <a href="social-cause.html">Social Cause</a>
+                        </li>
+                        <li class="pt-2 pb-2">
+                            <a href="media.html">Media</a>
+                        </li>
+                        <li class="pt-2 pb-2">
+                            <a href="terms-and-conditions.html">Terms & Conditions</a>
+                        </li>
+                    </div>
+                    <div>
+                        <div class="pt-2 pb-2 invisible">Quick Links</div>
+                        <li class="pt-2 pb-2">
+                            <a href="about-us.html">Our Story</a>
+                        </li>
+                        <!-- <li class="pt-2 pb-2">
+                            <a href="contact-us.html">Contact Us</a>
+                        </li> -->
+                        <!-- <li class="pt-2 pb-2">
+                            <a href="refund-policy.html">Refund Policies</a>
+                        </li> -->
+                        <li class="pt-2 pb-2">Community Guidelines</li>
+                        <li class="pt-2 pb-2">FAQs</li>
+                    </div>
+                    <div>
+                        <div class="p-2">Download the QuizMaster app</div>
+                        <div class="d-flex justify-content-center">
+                            <div class="p-2">
+                                <a href="https://play.google.com/store/apps/details?id=com.quizMasterWorld.quiz_master"><img src="assets/GooglePlay.svg" /></a>
+                            </div>
+                            <div class="p-2">
+                                <a href="https://apps.apple.com/us/app/quiz-master-quiz-master/id6444122333"><img src="assets/AppStore.svg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div>
+                    <!-- <img class="strcit-18" src="assets/strct18+.png"> -->
+                    <p class="pt-3" style="font-weight: 700;">Eligibility: <span style="color:#ffb400;">For Indian citizens above 18 years</span></p>
+                </div>
+            </section>
+        </footer>
+        <!-- footer -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    margin: 10,
+                    loop: false,
+                    autoWidth: true,
+                    items: 3,
+                    nav: true,
+                    dots: false,
+                    navText: ["<div class='nav-btn prev-slide'><img src='assets/t-arrow-1.svg'></div>", "<div class='nav-btn next-slide'><img src='assets/t-arrow-2.svg'></div>"],
+                });
+            });
+        </script>
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    </body>
+</html>
